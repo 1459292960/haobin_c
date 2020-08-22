@@ -16,6 +16,7 @@ int main (void)
     printf("a=%d,b= %d\n",a,b);
     return 0;
 }
+// huhuan函数每次执行完，系统为其分配的内存空间都会释放掉
 void huhuan(int * p,int * q) // 形参名字是p,q
 {
 
